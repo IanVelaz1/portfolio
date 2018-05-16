@@ -39,6 +39,7 @@ require('./routes/rutasAdmin/rutasAdmin')(app,passport);
 require('./routes/rutasImagenes/rutasimagenes')(app,uploadPhotos,cloudinary);
 require('./routes/rutasNavbar/rutasNabvar')(app);
 require('./routes/rutasPaginas/rutasPaginas')(app);
+require('./routes/rutasEventos/rutasEventos')(app);
 
 app.use(express.static(path.join(__dirname,"dist")));
 

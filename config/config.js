@@ -1,5 +1,5 @@
 module.exports={
- 'db':"mongodb://jansolote:Morrowind5@ds261429.mlab.com:61429/admincommerce",
+ 'db':"mongodb://localhost/adminC",
  'secret':"admin"
 
 }
