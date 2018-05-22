@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "angular2-jwt": "^0.2.3",
+    "animejs": "^2.2.0",
+    "aos": "^2.3.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "chart.js": "^2.7.2",
@@ -25,7 +27,8 @@
     "ngx-quill": "^2.2.0",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "typed.js": "^2.0.6"
   },
   "devDependencies": {
     "@angular/cli": "^1.7.4"
